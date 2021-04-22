@@ -1,0 +1,48 @@
+/* Write your code here. */
+.bg-container {
+  min-height: 100vh;
+}
+.banner {
+  width: 100%;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/coffee-planner-bg.png');
+  background-size: cover;
+  padding: 30px;
+  display: flex;
+  justify-content: flex-end;
+  height: 60vh;
+}
+.inside-banner-container {
+  color: White;
+  font-family: Roboto;
+  padding: 30px;
+  width: 40%;
+}
+.questions-options-container {
+  padding: 40px;
+  padding-top: 0px;
+}
+.button-message-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.button {
+  background-color: #0e8684;
+  border-radius: 5px;
+  padding: 10px;
+  color: white;
+  margin: 20px;
+  border: 0;
+}
+.message {
+  padding: 30px;
+  margin: 20px;
+  background-color: #2e353d;
+  color: white;
+  border-radius: 10px;
+  font-size: 26px;
+}
+.green-text {
+  color: #0e8684;
+}

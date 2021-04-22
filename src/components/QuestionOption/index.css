@@ -1,0 +1,38 @@
+/* Write your code here. */
+.options-container {
+  display: flex;
+}
+.option-card {
+  background-color: #f4f1ea;
+  padding: 20px;
+  border-radius: 20px;
+  margin-right: 30px;
+  width: 30vw;
+  height: 35vh;
+  cursor: pointer;
+  list-style-type: none;
+}
+.option-card-selected {
+  background-color: #0e8684;
+}
+.heading-image {
+  display: flex;
+  justify-content: space-between;
+}
+.heading {
+  font-size: 20px;
+  color: #2e353d;
+  font-weight: 500;
+}
+
+.cup {
+  width: 40px;
+  height: 40px;
+}
+.para {
+  color: #64748b;
+  font-size: 15px;
+}
+.text-selected {
+  color: white;
+}
